@@ -1,0 +1,43 @@
+#logo{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 0;
+}
+
+
+header h1 {
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+h2 {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgb(255, 215, 105);
+    border: 2px;
+}
+
+.area {
+text-align: justify;
+font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: goldenrod;
+    position: relative;
+    bottom: 0;
+
+}
+
+#links {
+padding: 30px;
+}
