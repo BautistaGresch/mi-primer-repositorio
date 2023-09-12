@@ -1,16 +1,20 @@
-#logo{
-    width: 120px;
-    height: 120px;
-    position: relative;
-    left: 0;
-}
-
-
 header h1 {
     font-size: 80px;
     text-align: center;
     text-decoration: underline;
     color: black;
+}
+
+.navbar-position {
+    position: fixed;
+    z-index: 1;
+    margin: 10px;
+}
+
+.navbar-text {
+    padding: 1cap;
+    font-size: large;
+    text-decoration: none;
 }
 
 h2 {
@@ -25,9 +29,26 @@ body {
     border: 2px;
 }
 
+/* Carrusel Index*/
+.container-carousel {
+    margin: 1cap;
+    border: 2px solid black;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Imagenes del Grid (Index)*/
+.imagen-index {
+    border: 2px solid black;
+    display: flex;
+}
+
 .area {
-text-align: justify;
-font-size: 40px;
+    text-align: justify;
+    font-size: 40px;
 }
 
 footer {
@@ -38,6 +59,37 @@ footer {
 
 }
 
+/*Links de Contactos*/
 #links {
-padding: 30px;
+    padding: 30px;
+}
+
+.row-links{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1cap;
+    padding: 2cap;
+    text-align: center;
+}
+
+.consulta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1cap;
+    padding: 1cap;
+}
+
+.formulario-caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1cap;
+    padding: 1cap;
 }

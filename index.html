@@ -27,41 +27,42 @@
     <!--encabezado, menu de navegacion, logo-->
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/gimnasio.html">Gimnasio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/funcional.html">Funcional</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/spinning.html">Spinning</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+        <nav class="navbar-position">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-text" href="./index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="navbar-text" aria-current="page" href="./pages/gimnasio.html">Gimnasio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-text" href="./pages/funcional.html">Funcional</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-text" href="./pages/spinning.html">Spinning</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-text" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </nav>
-
-        <img src="./assets/logo1.jpg" alt="logo del gimnasio" id="logo">
+        <!-- <img src="./assets/logo1.jpg" alt="logo del gimnasio" id="logo"> -->
 
         <h1>Gimnasio 14 de Agosto</h1>
 
     </header>
 
     <!-- Carrusel de Imagenes -->
-    <section class="container">
+    <section class="container-carousel">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -96,13 +97,13 @@
     </section>
 
     <!-- Grid de Imagenes  -->
-    <section class="container">
+    <section class="container-grid">
 
         <h2>Conoce Nuestro Gimnasio!</h2>
 
         <div class="row">
             <div class="col">
-                <img src="./assets/gym1.jpg" alt="imagen clase gimnasio">
+                <img src="./assets/gym1.jpg" alt="imagen clase gimnasio" class="imagen-index">
 
                 <p class="area">
                     Area de Gimnasio
@@ -116,7 +117,7 @@
                 </p>
             </div>
             <div class="col">
-                <img src="./assets/crossfit1.jpg" alt="imagen de clase funcional">
+                <img src="./assets/crossfit1.jpg" alt="imagen de clase funcional" class="imagen-index">
 
                 <p class="area">
                     Clases de Funcional
@@ -130,7 +131,7 @@
                 </p>
             </div>
             <div class="col">
-                <img src="./assets/spinning1.jpg" alt="imagen clase de spinning">
+                <img src="./assets/spinning1.jpg" alt="imagen clase de spinning" class="imagen-index">
 
                 <p class="area">
                     Clases de Spinning
