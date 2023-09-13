@@ -1,12 +1,23 @@
-header h1 {
-    font-size: 80px;
-    text-align: center;
-    text-decoration: underline;
-    color: black;
+
+.H1{
+    display: flex;
+    align-items: baseline;
+    margin: 1cap;
+    padding: 1cap;
+    display: block;
+    
+}
+
+.navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1cap;
+    display: block;
 }
 
 .navbar-position {
     position: fixed;
+    right: 0;
     z-index: 1;
     margin: 10px;
 }
@@ -93,3 +104,60 @@ footer {
     margin: 1cap;
     padding: 1cap;
 }
+
+/*Grilla Pagina Contactos*/
+#grilla-contactos{
+    display:grid;
+    grid-template-areas:
+    "nav"
+    "h1"
+    "links"
+    "consulta"
+    "formulario"
+    "footer";
+}
+
+nav{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#links{
+    grid-area: links;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#consulta{
+    grid-area: consulta;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#formulario{
+    grid-area: formulario;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#h1-contactos{
+    grid-area: h1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Fin Grilla Contactos*/

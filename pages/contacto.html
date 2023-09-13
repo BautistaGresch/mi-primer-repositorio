@@ -25,40 +25,43 @@
 <body class="cuerpo">
 
     <!--encabezado, menu de navegacion, logo-->
-    <header>
-
-        <nav class="navbar-position">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-text" href="../index.html">Inicio</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="navbar-text" aria-current="page" href="gimnasio.html">Gimnasio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="navbar-text" href="funcional.html">Funcional</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="navbar-text" href="./spinning.html">Spinning</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="navbar-text" href="./contacto.html">Contacto</a>
-                            </li>
-                        </ul>
+    <div id="grilla-contactos">
+        <header class="header">
+            <nav id="nav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-text" href="../index.html">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="navbar-text" aria-current="page" href="gimnasio.html">Gimnasio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-text" href="funcional.html">Funcional</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-text" href="./spinning.html">Spinning</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-text" href="./contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </nav>
-        </nav>
+        </header>
 
-        <h1>Gimnasio 14 de Agosto</h1>
+        <section id="h1-contactos">
+            <h1>Gimnasio 14 de Agosto</h1>
+        </section>
 
-        <div class="container-text-center" id="links">
+        <div id="links">
             <div class="row-links">
                 <div class="col">
                     <a href="">Facebook</a>
@@ -72,11 +75,11 @@
             </div>
         </div>
 
-        <section class="consulta">
+        <section id="consulta">
             <p>Si tenés alguna duda y/o consulta, no dudes en contactarte con nosotros!</p>
         </section>
 
-        <section class="formulario">
+        <section id="formulario">
             <form action="form.php" method="post" class="container-consulta-formulario">
                 <label for="nombre"></label>
                 <input type="text" name="nombre y apellido" id="nombre y apellido" placeholder="nombre y apellido">
@@ -86,13 +89,12 @@
                 <input type="text" name="email" id="email" placeholder="email">
                 <label for="consulta"></label>
 
-                <section class="formulario-caja">
+                <section id="formulario-caja">
                     <div>
                         <p>Consultas</p>
                     </div>
                     <div>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea placeholder="consulta">
-                    <input type="submit" value="">
+                        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea placeholder="consulta"> <input type="submit" value="">
                     </div>
                 </section>
             </form>
@@ -107,6 +109,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"></script>
+    </div>
+
 </body>
 
 </html>
